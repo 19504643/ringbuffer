@@ -1,0 +1,7 @@
+This is a simple ringbuffer repository as is
+tested with gcc
+
+HOW TO:
+$ make
+$ ./ringbuf
+
