@@ -25,6 +25,7 @@ int ringbuf_reset(ringbuf_t *buf)
 
     if(buf)
     {
+        memset(buf->buf,0,buf->size);
         buf->head = 0;
         buf->tail = 0;
         res = 0;
